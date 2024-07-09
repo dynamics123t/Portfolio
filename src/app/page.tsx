@@ -17,7 +17,7 @@ export default function page() {
             <div className="flex w-1/2 flex-col items-center self-center ">
               <div className="py-2 w-full mx-auto flex flex-col items-center justify-center text-center overflow-hidden sm:py-0">
                 <div className="inline-block text-left text-dark text-6xl font-bold w-full capitalize leading-none">
-                  There is nothing difficult, just fear that you won't do it.
+                  There is nothing difficult, just fear that you won not do it.
                 </div>
               </div>
               <p className="my-4 text-left text-base font-medium">
