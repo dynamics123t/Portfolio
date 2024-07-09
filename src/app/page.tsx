@@ -63,7 +63,7 @@ export default function page() {
               </div>
             </div>
             <div className="w-1/2">
-              <img
+              <Image
                 src="/images/tan.jpg"
                 alt=""
                 className="w-[600px] h-[600px] rounded-3xl"

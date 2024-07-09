@@ -32,7 +32,7 @@ export default function ProjectPage() {
                   className="w-[50%] cursor-pointer overflow-hidden rounded-lg lg:w-full"
                   target="_blank"
                 >
-                  <img
+                  <Image
                     className="transition-transform duration-300 hover:-translate-y-2"
                     src="https://minimal-nextjs-portfolio-website.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcrypto-screener-cover-image.5d2f6c4e.jpg&w=640&q=75"
                     alt=""
