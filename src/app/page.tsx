@@ -62,29 +62,34 @@ export default function page() {
                 </a>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-black bg-white p-8 ">
+              <div className="absolute top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl  bg-black "></div>
               <img
+                className="w-[550px] h-[550px] rounded-2xl"
                 src="/images/tan.jpg"
                 alt=""
-                className="w-[600px] h-[600px] rounded-3xl"
               />
+            </div>
+          </div>
+          <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-black bg-white p-6 mt-9">
+            <div className="absolute top-0 -right-6 -z-10 h-[102%] w-[102%]  rounded-[2rem] rounded-br-3xl  bg-black "></div>
+            <div className="flex justify-center">
+              <video
+                className="h-full w-full rounded-3xl items-center"
+                controls
+                autoPlay
+              >
+                <source
+                  src="/images/SnapTik_App_7342889072001633554-HD.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
-        <video
-          className="h-80% w-80% rounded-3xl items-center mb-16"
-          controls
-          autoPlay
-        >
-          <source
-            src="/images/SnapTik_App_7342889072001633554-HD.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+
       <div>
         <Footer />
       </div>
