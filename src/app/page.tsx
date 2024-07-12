@@ -63,7 +63,7 @@ export default function page() {
               </div>
             </div>
             <div className="w-1/2">
-              <Image
+              <img
                 src="/images/tan.jpg"
                 alt=""
                 className="w-[600px] h-[600px] rounded-3xl"
@@ -71,6 +71,19 @@ export default function page() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <video
+          className="h-80% w-80% rounded-3xl items-center mb-16"
+          controls
+          autoPlay
+        >
+          <source
+            src="/images/SnapTik_App_7342889072001633554-HD.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div>
         <Footer />

@@ -51,7 +51,7 @@ export default function page() {
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-black bg-white p-8 ">
               <div className="absolute top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl  bg-black "></div>
-              <Image
+              <img
                 className="h-auto w-full rounded-2xl"
                 src="/images/tan.jpg"
                 alt=""
