@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { motion } from "framer-motion";
+const MotionLink = motion(Link);
 export default function Header() {
   const pathname = usePathname();
   const router = useRouter();
@@ -70,11 +72,28 @@ export default function Header() {
           </nav>
         </div>
 
-        <div className="absolute left-[50%] top-2 translate-x-[-50%] ">
+        <div className="absolute left-[50%] top-2 translate-x-[-50%]">
           <div className="flex flex-col items-center justify-center mt-2">
-            <a className="flex items-center justify-center rounded-full w-20 h-20 bg-blue-500 text-black text-2xl font-bold">
+            <MotionLink
+              href="/"
+              className="flex items-center justify-center rounded-full w-14 h-14 bg-black text-white text-base font-bold"
+              whileHover={{
+                backgroundColor: [
+                  "#121212",
+                  "#F19ED2",
+                  "#FFB22C",
+                  "rgba(253,29,29,1",
+                  "rgba(252,176,69,1",
+                  "rgba(131,58,180,1",
+                  "#FFB22C",
+                  "#F19ED2",
+                  "#121212",
+                ],
+                transition: { duration: 1, repeat: Infinity },
+              }}
+            >
               Ryouji
-            </a>
+            </MotionLink>
           </div>
         </div>
         <nav className="flex items-center justify-center flex-wrap lg:mt-2 ">
