@@ -30,22 +30,22 @@ export default function page() {
                 <div>
                   <a
                     className="flex items-center rounded-lg border-2 border-solid text-white bg-black p-2.5 px-6 text-lg font-semibold
-            capitalize text-light hover:border-black hover:bg-white hover:text-black"
+          capitalize text-light hover:border-black hover:bg-white hover:text-black group"
                     target="_blank"
                     download
                     href="/CV_Tan.pdf"
                   >
-                    View CV
+                    Resume
                     <div className="relative w-6 h-6 ml-2 flex">
                       <Image
-                        className="absolute top-0 left-0 w-full h-full transition-opacity duration-300 ease-in-out opacity-100 hover:opacity-0"
+                        className="absolute top-0 left-0 w-full h-full transition-opacity duration-300 ease-in-out group-hover:opacity-0"
                         src="/images/arrow-up-right-from-square-solid-white.svg"
                         alt=""
                         width={15}
                         height={15}
                       />
                       <Image
-                        className="absolute top-0 left-0 w-full h-full transition-opacity duration-300 ease-in-out opacity-0 hover:opacity-100"
+                        className="absolute top-0 left-0 w-full h-full transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100"
                         src="/images/arrow-up-right-from-square-solid.svg"
                         alt=""
                         width={15}
