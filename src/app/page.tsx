@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import Transition from "@/components/layout/Transition";
 
 export default function page() {
   return (
@@ -11,6 +12,7 @@ export default function page() {
       <div className="">
         <Header />
       </div>
+      <Transition />
       <div className="flex min-h-screen items-center text-dark">
         <div className="z-0 inline-block h-full w-full bg-light p-32">
           <div className="flex w-full items-start justify-between ">

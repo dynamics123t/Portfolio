@@ -1,5 +1,6 @@
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import Transition from "@/components/layout/Transition";
 import Image from "next/image";
 import React from "react";
 
@@ -9,6 +10,7 @@ export default function ProjectPage() {
       <div>
         <Header />
       </div>
+      <Transition />
       <main className="mb-16 flex w-full flex-col items-center justify-center ">
         <div
           className="z-0 inline-block h-full w-full bg-white p-32 dark:bg-dark xl:p-24 lg:p-16 

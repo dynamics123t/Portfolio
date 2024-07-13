@@ -100,7 +100,7 @@ export default function Header() {
           <div className="flex items-center justify-center">
             <a href="https://github.com/dynamics123t" target="_blank">
               <Image
-                className="cursor-pointer w-6 mr-3 transition-transform duration-300 hover:-translate-y-2"
+                className="cursor-pointer w-6 mr-3 transition-transform duration-300 hover:-translate-y-1"
                 src="/images/github.svg"
                 alt=""
                 width={25}
@@ -109,7 +109,7 @@ export default function Header() {
             </a>
             <div>
               <Image
-                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-2"
+                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-1"
                 src="/images/youtube.svg"
                 alt=""
                 width={25}
@@ -118,7 +118,7 @@ export default function Header() {
             </div>
             <div>
               <Image
-                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-2"
+                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-1"
                 src="/images/facebook.svg"
                 alt=""
                 width={25}
@@ -127,8 +127,17 @@ export default function Header() {
             </div>
             <div>
               <Image
-                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-2"
+                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-1"
                 src="/images/instagram.svg"
+                alt=""
+                width={25}
+                height={25}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer w-6 mx-3 transition-transform duration-300 hover:-translate-y-1"
+                src="/images/linkedin.svg"
                 alt=""
                 width={25}
                 height={25}
