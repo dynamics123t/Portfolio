@@ -18,10 +18,10 @@ export default function Header() {
               onClick={() => router.push("/")}
               className="mr-4 rounded relative group cursor-pointer"
             >
-              <span className="relative">
+              <span className="relative text-lg font-semibold">
                 Home
                 <span
-                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-0.5
+                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-1
               ${pathname === "/" ? "w-full" : "w-0 group-hover:w-full"}
               transition-all ease duration-300`}
                 ></span>
@@ -32,10 +32,10 @@ export default function Header() {
               onClick={() => router.push("/about")}
               className="mr-4 rounded relative group cursor-pointer"
             >
-              <span className="relative">
+              <span className="relative text-lg font-semibold">
                 About
                 <span
-                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-0.5
+                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-1
               ${pathname === "/about" ? "w-full" : "w-0 group-hover:w-full"}
               transition-all ease duration-300`}
                 ></span>
@@ -46,10 +46,10 @@ export default function Header() {
               onClick={() => router.push("/project")}
               className="mr-4 rounded relative group cursor-pointer"
             >
-              <span className="relative">
+              <span className="relative text-lg font-semibold">
                 Project
                 <span
-                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-0.5
+                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-1
               ${pathname === "/project" ? "w-full" : "w-0 group-hover:w-full"}
               transition-all ease duration-300`}
                 ></span>
@@ -60,10 +60,10 @@ export default function Header() {
               onClick={() => router.push("/article")}
               className="mr-4 rounded relative group cursor-pointer"
             >
-              <span className="relative">
+              <span className="relative text-lg font-semibold">
                 Article
                 <span
-                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-0.5
+                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-1
               ${pathname === "/article" ? "w-full" : "w-0 group-hover:w-full"}
               transition-all ease duration-300`}
                 ></span>
