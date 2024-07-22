@@ -69,7 +69,7 @@ const LoginPage = () => {
 
             <div className="w-full flex items-center justify-center">
               <p className="text-sm font-normal text-white">
-                Don't have a account?{" "}
+                Dont have a account?{" "}
                 <Link
                   href="/auth/signup"
                   className="font-semibold underline underline-offset-2 cursor-pointer"
