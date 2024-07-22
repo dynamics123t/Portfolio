@@ -16,7 +16,7 @@ export default function Header() {
           <nav className="flex items-center justify-center">
             <div
               onClick={() => router.push("/")}
-              className="mr-4 rounded relative group cursor-pointer"
+              className="mr-8 rounded relative group cursor-pointer"
             >
               <span className="relative text-lg font-semibold">
                 Home
@@ -30,7 +30,7 @@ export default function Header() {
 
             <div
               onClick={() => router.push("/about")}
-              className="mr-4 rounded relative group cursor-pointer"
+              className="mr-8 rounded relative group cursor-pointer"
             >
               <span className="relative text-lg font-semibold">
                 About
@@ -44,7 +44,7 @@ export default function Header() {
 
             <div
               onClick={() => router.push("/project")}
-              className="mr-4 rounded relative group cursor-pointer"
+              className="mr-8 rounded relative group cursor-pointer"
             >
               <span className="relative text-lg font-semibold">
                 Project
@@ -58,10 +58,24 @@ export default function Header() {
 
             <div
               onClick={() => router.push("/article")}
-              className="mr-4 rounded relative group cursor-pointer"
+              className="mr-8 rounded relative group cursor-pointer"
             >
               <span className="relative text-lg font-semibold">
                 Article
+                <span
+                  className={`inline-block h-[1px] bg-black absolute left-0 -bottom-1
+              ${pathname === "/article" ? "w-full" : "w-0 group-hover:w-full"}
+              transition-all ease duration-300`}
+                ></span>
+              </span>
+            </div>
+
+            <div
+              onClick={() => router.push("/login")}
+              className="mr-8 rounded relative group cursor-pointer"
+            >
+              <span className="relative text-lg font-semibold">
+                Login Form
                 <span
                   className={`inline-block h-[1px] bg-black absolute left-0 -bottom-1
               ${pathname === "/article" ? "w-full" : "w-0 group-hover:w-full"}
