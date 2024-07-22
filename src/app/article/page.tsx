@@ -173,7 +173,7 @@ export default function page() {
                 className="relative"
               >
                 <h2 className="capitalize text-xl font-semibold hover:underline dark:text-light md:text-lg xs:text-base">
-                  Redux Simplified: A Beginner's Guide For Web Developers
+                  Redux Simplified: A Beginner is Guide For Web Developers
                 </h2>
                 <img
                   className="w-96 h-auto z-10 hidden absolute rounded-lg md:!hidden"
